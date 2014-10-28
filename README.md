@@ -16,6 +16,60 @@ I have the intentions to keep the project small and simple.
 	lolever.isNumeric('Probably false');
 	//returns false
 
+##### Alphabetic Characters
+
+	lolever.isAlphabetic('Abc');
+	//returns true
+
+	lolever.isAlphabetic(1337);
+	//returns false
+
+##### Emails
+
+	lolever.isEmail('smith@examples.com');
+	//returns true
+
+	lolever.isEmail('john@example');
+	//returns false
+
+##### Integers
+
+	lolever.isInt(1337);
+	//returns true
+
+	lolever.isInt('1337');
+	//returns false
+
+##### Objects
+
+	var object = {};
+	lolever.isObject(object);
+	//returns true
+
+	var array = [];
+	lolever.isObject(array);
+	//returns false
+
+##### Arrays
+
+	var array = [];
+	lolever.isArray(array);
+	//returns true
+
+	var object = {};
+	lolever.isArray(object);
+	//returns false
+
+##### Strings
+
+	lolever.isString('string');
+	//returns true
+
+	lolever.isString(1337);
+	//returns false
+
+
+
 #### MIT License
 
 Copyright © 2014 Tobias Johnsson &lt;gagges@gmail.com&gt;
