@@ -8,15 +8,13 @@ I have the intentions to keep the project small and simple.
 
 #### Usage 
 
-Examples :
+##### Numbers
 
 	lolever.isNumeric(300);
-
-returns true and 
+	//returns true
 
 	lolever.isNumeric('Probably false');
-
-returns false
+	//returns false
 
 #### MIT License
 
