@@ -54,7 +54,7 @@ I have the intentions to keep the project small and simple.
 
 	lolever.isString(1337); //returns false
 
-#### Get size of object
+##### Get size of object
 
 	lolever.getObjectSize({banana: true, orange: false, apple: true}); //returns 3
 
@@ -83,9 +83,10 @@ I have the intentions to keep the project small and simple.
 	lolever.objectSize({banana: true, orange: false, apple: true}, 4, 11); //returns false
 
 
-#### Get Object Type 
+##### Get Object Type 
 
-	(Thanks to Angus Croll (read more at: https://javascriptweblog.wordpress.com/2011/08/08/fixing-the-javascript-typeof-operator/))
+	Thanks to Angus Croll
+	Read more at: https://javascriptweblog.wordpress.com/2011/08/08/fixing-the-javascript-typeof-operator/
 
 	toType({a: 4}); //returns "object"
 	toType([1, 2, 3]); //returns "array"
